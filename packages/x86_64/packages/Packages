@@ -1,0 +1,247 @@
+Package: boost-date_time
+Version: 1.71.0-6
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 16516
+Filename: boost-date_time_1.71.0-6_x86_64.ipk
+Size: 17305
+SHA256sum: 187c8aa0bcd60a165c52eb0041d93efbf376cd83dd9d248ed0d9c72c0ccef585
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.71.0-6
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 105325
+Filename: boost-program_options_1.71.0-6_x86_64.ipk
+Size: 106084
+SHA256sum: 4fcca93eadd6219344b24e99dd1ac45a2956eae13a58f647b69a97421621d2db
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.71.0-6
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 1021
+Filename: boost-system_1.71.0-6_x86_64.ipk
+Size: 1804
+SHA256sum: 6139eae86380a8504b2c69f47d7ea58e739e4ebdd5453c68199ef8d28fe1fda7
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.71.0-6
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 105
+Filename: boost_1.71.0-6_x86_64.ipk
+Size: 1238
+SHA256sum: f46e17c5ddb3d5e8208de96e2dd47501c8017cfdaf38882a016bc22ae7738904
+Description:  This package provides the Boost v1.71.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_71_0/
+
+Package: cgi-io
+Version: 19
+Depends: libc, libubox20191228, libubus20191227
+License: GPL-2.0-or-later
+Section: net
+Architecture: x86_64
+Installed-Size: 8672
+Filename: cgi-io_19_x86_64.ipk
+Size: 9434
+SHA256sum: 83fc8da7fbbaeac534d3e7d2615e19c1bffc2929c7d7eaf3db6a57cbd9cd71ed
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-base64
+Version: 8.30-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+Section: utils
+Architecture: x86_64
+Installed-Size: 23471
+Filename: coreutils-base64_8.30-2_x86_64.ipk
+Size: 24195
+SHA256sum: 8dbe82cd733ae187fc2928a855ff3fa858377432129b1852225760070a81c3c2
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils
+Version: 8.30-2
+Depends: libc
+Section: utils
+Architecture: x86_64
+Installed-Size: 105
+Filename: coreutils_8.30-2_x86_64.ipk
+Size: 919
+SHA256sum: 830b14f6108bbb58cd3c4217e45964bc72b8d54c083da9c35690d1a4feadeb5b
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: ddns-scripts
+Version: 2.7.8-13
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 15007
+Filename: ddns-scripts_2.7.8-13_all.ipk
+Size: 16079
+SHA256sum: 9cf605fb4b87363d688b4098ebe33190504a98bde08f1658cb54e5619b0674c4
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Section: net
+Architecture: x86_64
+Installed-Size: 4963
+Filename: etherwake_1.09-4_x86_64.ipk
+Size: 5849
+SHA256sum: 9ea95cc9934d44d140eb36fb8d24bd754cb94ba9e9d7287ff7158b601af39d5f
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: libcap
+Version: 2.27-1
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 6796
+Filename: libcap_2.27-1_x86_64.ipk
+Size: 7531
+SHA256sum: 0a5ddd3a7afd0c1cd5960a44a4cc2e5cc47d879b0d1d49745db27d6e8e03c275
+Description:  Linux capabilities library
+
+Package: libev
+Version: 4.25-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 20674
+Filename: libev_4.25-1_x86_64.ipk
+Size: 21481
+SHA256sum: 899527a88d20ed5cd21cde5c1902893fa583cc10b5e7030d7d89a8e510dabfc2
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libpcre
+Version: 8.43-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 81810
+Filename: libpcre_8.43-1_x86_64.ipk
+Size: 82616
+SHA256sum: c4adc4e9e71c89aa27671d558709f4e73ef53370b203b91f8d61cadab337b03f
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsodium
+Version: 1.0.18-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 143687
+Filename: libsodium_1.0.18-1_x86_64.ipk
+Size: 144958
+SHA256sum: e1870951c9b0cc0b27f6330b928898e971864433ee797d8bb9881118dfe0c527
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: nlbwmon
+Version: 2020-04-11.1-34a18876-3
+Depends: libc, libubox20191228, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 19884
+Filename: nlbwmon_2020-04-11.1-34a18876-3_x86_64.ipk
+Size: 20727
+SHA256sum: fb7446f2806ad51d658ef060fecf00616706b7a8a26a3516b8bff3f7e18800b1
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: shadowsocks-libev-config
+Version: 3.2.5-5
+Depends: libc
+License: GPL-3.0-or-later
+Section: net
+Architecture: x86_64
+Installed-Size: 2643
+Filename: shadowsocks-libev-config_3.2.5-5_x86_64.ipk
+Size: 3396
+SHA256sum: 4a24881efa64bcf6ef539e99fbeb022aabe09b921e74d2cdd37e414462ea492f
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.2.5-5
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: x86_64
+Installed-Size: 50085
+Filename: shadowsocks-libev-ss-local_3.2.5-5_x86_64.ipk
+Size: 50920
+SHA256sum: ebae3916c7927214336e076e786c7f97fffde97d28731dda329f1f3a150203de
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.2.5-5
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: x86_64
+Installed-Size: 43075
+Filename: shadowsocks-libev-ss-redir_3.2.5-5_x86_64.ipk
+Size: 43966
+SHA256sum: 11337d58a4b6d7c85a548544b428fca1ddf05e20d538479e4a747ed930f20471
+Description:  shadowsocks-libev ss-redir
+
