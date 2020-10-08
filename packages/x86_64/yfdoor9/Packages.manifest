@@ -1,0 +1,78 @@
+Package: luci-app-control-timewol
+Version: 1.0-3-20190309
+Depends: libc, etherwake
+Source: feeds/yfdoor9/others/luci-app-control-timewol
+SourceName: luci-app-control-timewol
+Section: luci
+Architecture: all
+Installed-Size: 2794
+Filename: luci-app-control-timewol_1.0-3-20190309_all.ipk
+Size: 3561
+SHA256sum: a1d3d7a6828cb33acaf630d3e3f7376fbfa1cc6f04963c07b5a3c705e2144579
+Description:  LuCI support for Timewol From Koolshare
+
+Package: luci-app-control-webrestriction
+Version: 1.0-5-20200107
+Depends: libc
+Source: feeds/yfdoor9/others/luci-app-control-webrestriction
+SourceName: luci-app-control-webrestriction
+Section: luci
+Architecture: all
+Installed-Size: 3121
+Filename: luci-app-control-webrestriction_1.0-5-20200107_all.ipk
+Size: 3884
+SHA256sum: 0f6d6e53e1a830c2a04816fcf54797d69dd84a036ee64a58a4e4d9302f70db19
+Description:  LuCI support for Webrestriction From Koolshare
+
+Package: luci-app-timecontrol
+Version: 1.0-1-20200402
+Depends: libc
+Source: feeds/yfdoor9/lienol/luci-app-timecontrol
+SourceName: luci-app-timecontrol
+Section: luci
+Architecture: all
+Installed-Size: 2784
+Filename: luci-app-timecontrol_1.0-1-20200402_all.ipk
+Size: 3526
+SHA256sum: 7b43a52b1a970fbe990cd68a9e654ad88d85497580b28cbca00004f318992b88
+Description:  LuCI support for Time Control
+
+Package: luci-i18n-control-timewol-zh-cn
+Version: 1.0-3-20190309
+Depends: libc, luci-app-control-timewol
+Source: feeds/yfdoor9/others/luci-app-control-timewol
+SourceName: luci-i18n-control-timewol-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 418
+Filename: luci-i18n-control-timewol-zh-cn_1.0-3-20190309_all.ipk
+Size: 1244
+SHA256sum: 0464594fc7e01d80dd0cae4fe285cf4c0fd34e1814bba690d1c4de576e840aea
+Description:  Translation for luci-app-control-timewol - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-control-webrestriction-zh-cn
+Version: 1.0-5-20200107
+Depends: libc, luci-app-control-webrestriction
+Source: feeds/yfdoor9/others/luci-app-control-webrestriction
+SourceName: luci-i18n-control-webrestriction-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 425
+Filename: luci-i18n-control-webrestriction-zh-cn_1.0-5-20200107_all.ipk
+Size: 1251
+SHA256sum: 512861447a95e1d627bc7b52f0ee5b8fd21e3fb5aa3dcc50b528f336169c342a
+Description:  Translation for luci-app-control-webrestriction - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-timecontrol-zh-cn
+Version: 1.0-1-20200402
+Depends: libc, luci-app-timecontrol
+Source: feeds/yfdoor9/lienol/luci-app-timecontrol
+SourceName: luci-i18n-timecontrol-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 720
+Filename: luci-i18n-timecontrol-zh-cn_1.0-1-20200402_all.ipk
+Size: 1543
+SHA256sum: a816cf6ed2678791e34635dd6c82f69e4d061b53ddc305a8835affe25b135ece
+Description:  Translation for luci-app-timecontrol - 简体中文 (Simplified Chinese)
+
